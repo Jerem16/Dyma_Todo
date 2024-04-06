@@ -34,11 +34,14 @@ Les contributions sont les bienvenues ! Pour soumettre des suggestions ou des pr
 
 ## Workflow Git pour le Projet
 
+```bash
 1. **Créer une nouvelle branche pour le développement CSS depuis main :**
+
 
     git checkout main
     git pull origin main
     git checkout -b css
+
 
 2. **Push les modifications branche CSS :**
 
@@ -64,3 +67,4 @@ Les contributions sont les bienvenues ! Pour soumettre des suggestions ou des pr
     git merge css
     git merge js
     git push origin main
+```
